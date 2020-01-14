@@ -6,7 +6,6 @@ public class Hero {
     private Hair hair;
     private Proffesion proffesion;
 
-
     private Hero(Builder builder) {
         this.name = builder.name;
         this.armor = builder.armor;
